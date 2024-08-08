@@ -1,12 +1,13 @@
-import { useState } from 'react'
+
 import './App.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  console.log(import.meta.env.REACT_APP_APPWRITE_URL);
+
 
   return (
     <>
-    <h1>A blog webApp</h1>
+      <h1>A blog webApp</h1>
     </>
   )
 }
